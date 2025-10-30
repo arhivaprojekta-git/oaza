@@ -1,0 +1,306 @@
+/*everything made for/by div*/
+/*DIVS*/
+.center{
+    margin-left: auto;
+    margin-right:auto ;
+    width: fit-content;
+}
+
+.green-line{
+    height: 5px;
+    background-color: #81c408;
+}
+
+
+/*DIV width*/
+
+.max-width-small{
+    max-width: 24rem;
+}
+
+.max-width-very-small{
+    max-width: 30px;
+}
+
+min-width-40{
+    min-width: 40%;
+}
+
+/*DIV INLINE*/
+
+
+
+/*TOPOGRAPHY---*/
+.all-text-big{
+    font-size: 2.4rem;
+}
+
+
+.slogan-strong{
+    font-size: 4rem !important;
+    font-weight: 600;
+    line-height: 5.5rem;
+    word-spacing: 0.1rem;
+    letter-spacing: -0.09rem;
+
+    color: #81c408;
+}
+
+.strong{
+    max-width: fit-content;
+    font-weight: 700;
+    font-size: 3.7rem;
+    margin-bottom: 3.5rem;
+}
+
+.link-green{
+    text-decoration-color: green;
+    color: #81c408;
+    font-weight: 700;
+    font-size: 3.2rem;
+}
+
+
+.link-orange{
+    text-decoration-color: #f4bb56;
+    color: #ffb83b;
+    font-weight: 700;
+    font-size: 2.2rem; 
+}
+
+
+/*highlight*/
+.extra-bold-important{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    border-bottom: solid;
+    border-width: 0.5rem;
+}
+
+.big-text-highlight{
+    color: #81c408;
+    font-weight: 600;
+    font-size: 4.2rem !important;
+    line-height: 6rem;
+}
+
+
+/*slogan container */
+.slogan-container-deco-left-line{
+    border-left: solid;
+    border-color: #81c408;
+    padding-left: 2rem;
+    border-width: 0.7rem;
+}
+
+.size-inherit{
+    width: inherit;
+    height: inherit;
+}
+
+/*IMAGES---*/
+.dynamic-image{
+    width: 100%;
+    height: inherit; /*CSS MOMENT*/
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.dynamic-image-cover {
+    width: 100%;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+
+    object-fit: cover;
+  }
+
+.dynamic-image-scale-down{
+    width: 100%;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+
+    object-fit: contain;
+}
+
+
+
+
+.img-container-horizontal-small{
+    width: min(40rem,100%);
+    height: 20rem;
+}
+
+.img-container-vertical-large{
+    width: min(25rem,100%);
+    height: 30rem;
+}
+
+
+.div-bg-image{
+    border-radius: 15px;
+    background-size:cover;
+    background-image: url("../images/rose.jpg");
+}
+
+
+
+
+/*PADDING OR SPACING---*/
+.padding-spacing-radious-bottom{
+    padding: 25px;
+    border-radius: 0px 0px 17px 17px;
+}
+
+.padding-spacing-radious-right{
+    padding: 25px;
+    border-radius: 0px 17px 17px 0px;
+}
+
+.padding-huge{padding: 40px;}
+.padding-medium{padding:25px;}
+.no-horizontal-padding{padding-top:0px !important; padding-bottom: 0px !important;}
+
+padding-huge-sides{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*BORDER RADIOUS---*/
+.border-radious-left{border-radius: 17px 0px 0px 17px !important;}
+.border-radious-right{border-radius: 0px 17px 17px 0px !important;}
+.border-radious{border-radius:17px !important;}
+
+
+
+/*MARGINS---*/
+
+.margin-top-bot-big{
+    margin-bottom: 250px;
+    margin-top: 250px;
+}
+
+.margin-top-big{
+    margin-top: 250px;
+}
+
+
+.margin-bottom-big-medium{
+    margin-bottom: 125px;
+}
+
+.margin-bottom-big{
+    margin-bottom: 20rem !important;
+}
+
+margin-bottom-very-small{
+    margin-bottom: 17px;
+}
+
+.margin-top-small{
+    margin-top: 5rem;
+}
+
+.margin-bottom-medium{
+    margin-bottom: 30px;
+}
+.margin-bottom-very-small{
+    margin-bottom:1rem;
+}
+
+.margin-top-medium{
+    margin-top: 10rem;
+}
+
+.no_margin{
+    margin: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*very specific templates*/
+
+.gallery-card{
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*COLORS*/
+
+
+.grey{
+    background: #eeeff0;
+}
+
+.bg-light-yellow{
+    background-color:#eece00 ;
+}
+
+.bg-light-orange{
+    background-color: #dd732a;
+}
+
+.bg-light-blue{
+    background-color: #1d95de;
+    background-color: #42b4f9;
+}
+
+.light-green{
+    color: #81c408;
+}
+
+.light-green-bg{
+    background-color: #81c408 !important;
+}
+
+.dark-green-bg{
+    background-color: #5b8864;
+}
+
+.tint-green{
+    color: #d1e7dd;
+}
+
+.light-brown{
+    color: #a4836c;
+}

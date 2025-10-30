@@ -1,0 +1,60 @@
+/*3x3 grid cards*/
+.card-3x3{
+  flex-basis: 31%;
+  flex-shrink: 1;
+  flex-grow: 1;
+  border: solid;
+  border-color: #eeebeb;
+  border-width: 1px;
+  border-radius: 6px;
+  padding: 3px;
+}
+
+.card-large {
+    flex-basis: 40%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: min(465px,100%);
+}
+
+.card-very-small {
+    flex-basis: 40%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: min(248px,100%);
+}
+
+.card-large img{
+    border-radius: 12px 12px 0px 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*small template*/
+
+.image-div{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: min(400px, 100%);
+}
+
+
+
+
+
+/*small footer*/
+
+.card-small-responsive {
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: min(333px,100%);
+    padding-left: 10px;
+}

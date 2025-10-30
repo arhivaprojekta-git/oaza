@@ -1,0 +1,159 @@
+@media (max-width:800px) {
+
+    .collapse-1300{
+        display: none;
+    }
+    
+}
+/*index.html*/
+
+
+
+
+
+/*js specific classes*/
+
+
+
+
+
+
+.fixed_position_center{
+    position: fixed;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    animation-name: jump_in;
+    animation-duration: 2s;
+}
+
+
+
+
+@keyframes jump_in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*archive*/
+
+.flex-fixed-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+
+
+.flex-fixed-end{
+    transition-duration: 1s;
+    transition-delay: 1s;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    animation-name: jump_in;
+    animation-duration: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex-absolute-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+}
+
+.flex-absolute-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+}
+

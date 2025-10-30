@@ -1,0 +1,113 @@
+/*not for templates but for "one time css"*/
+
+/*THIS FILE IS BEING REFACTORED INTO SCSS IN YOUT FILE */
+
+
+.green-highlight{
+    width: 100%;
+    color: #81c408;
+    border-bottom: solid;
+    border-color: #81c408;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+.screen-size{
+    max-width: 135rem;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*slogan specific code*/
+.slogan{
+    margin-top: auto;
+    min-width: fit-content;
+    min-height: fit-content;
+
+    margin-bottom: 250px !important;
+    margin-top: 250px !important;
+}
+
+.slogan p{
+    letter-spacing: 0.25rem;
+    margin-top: 20px;
+    max-width: 64rem;
+    font-size: 2.5rem;
+}
+
+
+
+
+/*BORING STUFF DOWN*/
+
+/* PADDING */
+.padding-medium{
+    padding: 2rem;
+}
+
+
+
+/*footer specific*/
+
+#footer_main p{
+    color: white;
+}
+
+
+
+footer{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 100px;
+    
+    padding: 60px 20px;
+}
+
+footer a {
+    color: #81c408;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+
+footer h1 {
+    margin-bottom: 3rem;
+}
+
+
+
+/*copyright specific*/
+.copyright-container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.copyright-container a{
+    text-decoration: none;
+    color: black;
+}
