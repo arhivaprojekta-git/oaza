@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cvece </title>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/template.css">
+    <link rel="stylesheet" href="./css/small-style.css">
+    <link rel="stylesheet" href="./css/small-templates.css">
+    <link rel="stylesheet" href="./css/defaults.css">
+    <link rel="stylesheet" href="./css/flex-box-templates.css">
+
+    <link rel="stylesheet" href="/misc/fontawesome/css/all.min.css">
+
+    <style>
+        .img-box-width {
+            margin: auto;
+            width: 100%;
+        }
+        .image-max-size{
+            max-height: 700px;
+        }
+
+        .dynamic-center-fit-img {
+            object-fit: cover;
+            margin: auto;
+            height: inherit;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img class="img-thumbnail" width="170" src="./images/oaza.png"
+                    alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="ac nav-item">
+                        <a class="active nav-link" aria-current="page" href="./index.html">Početna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./galerija.html">Galerija</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./o_nama.html">O nama</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./proizvodi.html">Proizvodi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./kontakt.html">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./saveti.html">Saveti za cveće</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./odrzavanje.html">Odrzavanje</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sezone.html">Sezone</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+<main class="main">
+
+    <div class="slogan flex-container-row-space-around flex-wrap-container">
+        <div class="slogan slogan-container-deco-left-line">
+            <h1 class="slogan-strong">Najlepše cveće za vas</h1>
+            <p>Naša cvećara nudi širok izbor svežeg cveća i raskošnih buketa za sve prilike. Naručite online i
+                uživajte u brzoj dostavi!</p>
+            <div class="flex-row-fit-content">
+                <a class="link-green" href="#">Posetite nas</a>
+            </div>
+        </div>
+
+        <div class="max-width-small">
+            <img src="./images/flowers/rose.jpg" alt="Ruže" class="dynamic-image">
+        </div>
+    </div>
+
+    <!-- 4X4 SECTION -->
+    <div class="flex-container-row-wrap flex-spacing-gap">
+
+
+        <div class="card-large">
+            <div class="img-box-width">
+                <img src="./images/bouquet/boquet.png" class="card-img-top dynamic-image-cover image-max-size" alt="Buket ruža">
+            </div>
+            <div class="card-body padding-spacing-radious-bottom grey">
+                <h2 class="card-title">Romantični buketi</h2>
+                <p>Elegantni buketi za posebne trenutke i voljene osobe.</p>
+                <a href="#" class="btn btn-primary">Poruči</a>
+            </div>
+        </div>
+
+        <div class="card-large">
+            <div class="img-box-width">
+                <img src="./images/flowers/garden_flowers_2.jpg" class="card-img-top dynamic-image-cover image-max-size" alt="Dvorišno cveće">
+            </div>
+            <div class="card-body padding-spacing-radious-bottom grey">
+                <h2 class="card-title">Dvorišno cveće</h2>
+                <p>Raznovrsne biljke i cvetni aranžmani za ulepšavanje vašeg vrta.</p>
+                <a href="#" class="btn btn-primary">Pogledaj ponudu</a>
+            </div>
+        </div>
+        
+        <!-- Unutrasnje cvece -->
+        <div class="card-large">
+            <div class="img-box-width">
+                <img src="./images/flowers/inside_flowers.jpg" class="card-img-top dynamic-image-cover image-max-size" alt="Unutrašnje cveće">
+            </div>
+            <div class="card-body padding-spacing-radious-bottom grey">
+                <h2 class="card-title">Unutrašnje cveće</h2>
+                <p>Sobne biljke koje unose svežinu i prirodnu lepotu u vaš dom.</p>
+                <a href="#" class="btn btn-primary">Pogledaj ponudu</a>
+            </div>
+        </div>
+        
+        <!-- Istaknite se  -->
+        <div class="card-large">
+            <div class="img-box-width">
+                <img src="./images/flowers/stand_out.jpg" class="card-img-top dynamic-image-cover image-max-size" alt="Istaknite se">
+            </div>
+            <div class="card-body padding-spacing-radious-bottom grey">
+                <h2 class="card-title">Istaknite se</h2>
+                <p>Dodajte eleganciju i stil uz naše pažljivo odabrano cveće.</p>
+                <a href="#" class="btn btn-primary">Saznaj više</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <br><br><br>
+
+
+
+
+
+    
+
+
+
+
+
+
+    <div class="flex-container-row-wrap padding-huge-sides margin-bottom-big">
+        <div class="max-width-small flex-item-2x2-fluid medium-collapse-point-flex-element">
+            <img src="./images/flowers/garden.jpg" alt="Cvećara" class="dynamic-image border-radious-left">
+        </div>
+
+        <div
+            class="flex-container-column-space-between flex-item-2x2-fluid-primary medium-collapse-point-flex-element padding-spacing-radious-bottom">
+            <h1 class="big-text-highlight">Vaša oaza cveća</h1>
+            <div>
+                <p>Donosimo vam najbolje cveće iz celog sveta, sa pažljivo odabranim aranžmanima koji će oduševiti
+                    svakoga.</p>
+                <div class="green-line"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-container-row-wrap padding-huge-sides margin-bottom-big">
+        <div
+            class="flex-container-column-space-between flex-item-2x2-fluid-primary medium-collapse-point-flex-element padding-spacing-radious-bottom">
+            <div class="flex-row-end">
+                <h1 class="big-text-highlight">Brza i sigurna dostava</h1>
+            </div>
+
+            <div>
+                <div class="flex-row-end">
+                    <p>Naručite danas i vaše cveće stiže na željenu adresu u rekordnom roku!</p>
+                </div>
+                <div class="green-line"></div>
+            </div>
+        </div>
+
+        <div class="max-width-small flex-item-2x2-fluid medium-collapse-point-flex-element">
+            <img src="./images/flowers/fast_shipping.jpg" alt="Dostava cveća" class="dynamic-image border-radious-right">
+        </div>
+    </div>
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <h1 class="green-highlight center strong"> OAZA </h1>
+
+        <div id="footer_main" class="flex-container-row-wrap flex-row-center screen-size flex-spacing-gap">
+
+            <div class="card-small-responsive">
+                <h2 class="green-highlight">Naša misija</h2>
+                <p>Naša misija je da uvek stavimo naše mušterije na prvo mesto. Posvećeni smo pružanju vrhunskih proizvoda i usluga, sa pažnjom na svaki detalj. Vaša zadovoljstva su nam najvažnija, a mi se trudimo da svaki vaš susret sa našim proizvodima bude nezaboravan.</p>
+            </div>
+
+            <div class="card-small-responsive">
+                <h2 class="green-highlight">Info</h2>
+                <a href="o_nama.html">O nama</a>
+                <a href="kontakt.html">Kontakt</a>
+                <a href="faq.html">FAQ</a>
+                <a href="mapa.html">Mapa sajta</a>
+            </div>
+
+            <div class="card-small-responsive">
+                <h2 class="green-highlight">Kontakt</h2>
+                <p>Adresa: Nemanjina 48</p>
+                <a href="mailto:Oaza@gmail.com">Email: Oaza@gmail.com</a>
+                <a href="tel:+381 111111111">Telefon: +381 111111111</a>
+                <p>Elektronsko plaćanje</p>
+                <img src="./images/payment/payment.png" alt="Slike za plaćanje">
+            </div>
+
+        </div>
+
+        <div class="flex-row-center flex-spacing-gap-small">
+            <h4 class="link-green">Follow us on: </h4>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+
+
+    </footer>
+
+    <div class="copyright-container flex-container-row-wrap">
+        <div>
+            <span>
+                <a href="#">OAZA</a>, Sva prava zadržana
+            </span>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
